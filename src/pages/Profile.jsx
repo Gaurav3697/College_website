@@ -33,7 +33,7 @@ const Profile = () => {
         </motion.h1>
         <Typewriter
           options={{
-            strings: ["Who always provides the best guidance and support to their students", "Who always inspires their students to excel and succeed", "Who always guides their students with unwavering dedication"],
+            strings: ["Who only wants success of student", "Who always inspires their students to excel", "Who always guides their students with dedication"],
             autoStart: true,
             loop: true,
             wrapperClassName: "text-xl lg:text-3xl text-gray-700 mb-6",

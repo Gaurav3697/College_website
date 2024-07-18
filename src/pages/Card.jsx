@@ -4,7 +4,7 @@ const Card = () => {
       <div className="relative flex flex-col md:flex-row w-full max-w-[35rem]  rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
         <div className="relative m-0 w-full md:w-3/6 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
           <img
-            src="/assets/OSK.jfif"
+            src="/assets/computer.jpg"
             alt="image"
             className="h-full w-full object-cover"
           />
