@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react'
-import DemoCarousel from '@/components/carosel';
+import DemoCarousel from '../components/Carosel';
 
 const Testinomial = () => {
     return (
