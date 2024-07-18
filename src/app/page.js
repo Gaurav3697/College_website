@@ -1,4 +1,5 @@
-import Image from "next/image";
+"use client";
+
 import Header from "../pages/Header.jsx";
 import Footer from "@/pages/Footer.jsx";
 import Contact from "@/pages/Contact.jsx";
@@ -6,9 +7,9 @@ import { Toaster } from "react-hot-toast";
 import InfoHeader from "@/pages/InfoHeader.jsx";
 import Home from "@/pages/Home.jsx";
 import Courses from "@/pages/Courses.jsx";
-import TeacherSection from "@/pages/TeacherSection.jsx";
 import Testinomial from "@/pages/Testinomial.jsx";
 import Profile from "@/pages/Profile.jsx";
+import Gallary from "@/pages/Gallary.jsx";
 
 export default function page() {
     return <>
@@ -18,7 +19,7 @@ export default function page() {
             <Home />
             <Profile />
             <Courses />
-            <TeacherSection />
+            <Gallary/>
             <Contact />
             <Testinomial />
             {/* <Posts/> */}
