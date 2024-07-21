@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const InfoHeader = () => {
     return (
-        <div className="py-4 px-2 antialiased bg-white dark:text-gray-200 dark:bg-gray-800 w-screen fixed h-32 z-50">
+        <div className="hidden md:block py-4 px-2 antialiased bg-white dark:text-gray-200 dark:bg-gray-800 w-screen fixed h-32 z-50">
             <div className="w-screen text-gray-700">
                 <div className="flex w-screen max-w-screen-lg m-auto px-4 items-center justify-between">
                     <div className="flex flex-col sm:flex-row gap-2 sm:gap-5 items-center justify-start">
@@ -31,11 +31,12 @@ const InfoHeader = () => {
                     </div>
 
                     <nav className="flex-grow flex justify-end">
-                        <Link href={"/"} className="px-2 sm:px-5 text-sm dark:text-gray-200 focus:shadow-outline">
+                        {/* facebook */}
+                        <a href={"https://www.facebook.com/gyandev.coachinggcc"} className="px-2 sm:px-5 text-sm dark:text-gray-200 focus:shadow-outline">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
                                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
                             </svg>
-                        </Link>
+                        </a>
 
                         <Link href={"/"} className="px-2 sm:px-5 text-sm dark:text-gray-200 focus:shadow-outline">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp" viewBox="0 0 16 16">

@@ -14,7 +14,7 @@ const Card = () => {
             Diploma in Computer Engineering
           </h6>
           <p className="w-9/12 lg:w-11/12 m-auto block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-          A Diploma in Computer Engineering is a technical education program that provides foundational knowledge and practical skills in computer science and engineering. 
+          A Diploma in Computer Engineering is a 3-year technical education program that provides foundational knowledge and practical skills in computer science and engineering. This couse is affiliated by CTEVT 
           </p>
         </div>
       </div>

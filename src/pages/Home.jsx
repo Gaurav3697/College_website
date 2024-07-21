@@ -53,12 +53,12 @@ const Home = () => {
               <div className="mt-10 text-gray-600 text-2xl mx-auto">About College</div>
               <div className="m-5 text-gray-500 text-md mx-auto w-10/12">Welcome to our college, where dedicated teachers inspire success and foster growth. Embrace a vibrant community, innovative learning experiences, and a supportive environment that empowers you to achieve your dreams. Discover endless possibilities with us and shape your future!</div>
             </div>
-            <div className="w-full md:w-8/12 h-full bg-white mx-auto sm:my-10">
+            {/* <div className="w-full md:w-8/12 h-full bg-white mx-auto sm:my-10">
               <video width="100%" controls>
                 <source src="/assets/video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-            </div>
+            </div> */}
           </div>
           {/* animation effects */}
           <div className="animation-effects w-full h-[50vh] mt-[15vh] mb-10 bg-white flex flex-wrap gap-10  md:gap-[10vw] justify-center text-center items-center" >

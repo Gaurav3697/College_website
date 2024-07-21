@@ -8,7 +8,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-      <div className="w-screen antialiased bg-gray-100 fixed z-50 mt-24 lg:mt-10 h-[15vh] top-0 left-0">
+      <div className="w-screen antialiased bg-gray-100 fixed z-50 mt-0 md:mt-24 lg:mt-10 h-[15vh] top-0 left-0">
         <div className="w-full text-gray-700 bg-white dark:text-gray-200 ">
           <div className="flex flex-col w-10/12 m-auto px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
             <div className="flex flex-row items-center justify-between p-4">

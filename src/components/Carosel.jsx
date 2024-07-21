@@ -8,7 +8,7 @@ const Testinomial=[
     {
         id:1,
         name:"Manish sah",
-        Description:"computerengineering facilitator-Rupaitha ma vi",
+        Description:"Had excellenece experience in college and now I am computerengineering facilitator-Rupaitha ma vi",
         src:"/assets/students_img/manish.jpg"
     },
     {
@@ -24,15 +24,27 @@ const Testinomial=[
         src:"/assets/students_img/Lallu.jpeg"
     },
     {
+        id:7,
+        name:"Himai Ishika",
+        Description:"The experience in the college was excellence.",
+        src:"/assets/students_img/Himai_Ishika.jpg"
+    },
+    {
+        id:8,
+        name:"Khusbu_sah",
+        Description:"The college environment was very supportive",
+        src:"/assets/students_img/Khusbu_sah.jpg"
+    },
+    {
         id:4,
         name:"satyam Jha",
-        Description:"Data analyst-freelancer",
+        Description:"Learnt many skilled related to life and computer feild and now i am Data analyst-freelancer",
         src:"/assets/students_img/satyam.jpeg"
     },
     {
         id:5,
         name:"Kuldip mahato",
-        Description:"Neelarjun Engineering college facilitator",
+        Description:"Transformation in this college was amazing and now i am Neelarjun Engineering college facilitator",
         src:"/assets/students_img/kuldip.jpeg"
     },
     {
@@ -47,7 +59,7 @@ class DemoCarousel extends Component {
     render() {
         return (
             <div className='h-5/6 w-4/5'>
-            <Carousel showArrows={false} infiniteLoop={true} autoPlay={true} centerMode={true} interval={'1000'} showIndicators={false} showThumbs={false} showStatus={false}>
+            <Carousel showArrows={false} infiniteLoop={true} autoPlay={true} centerMode={true} interval={'3000'} showIndicators={false} showThumbs={false} showStatus={false}>
               {
                 Testinomial.map((Testinomial)=>(
                     <TestinomailCard key={Testinomial.id} name={Testinomial.name} Description={Testinomial.Description} src={Testinomial.src}/>

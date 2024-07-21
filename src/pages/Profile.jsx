@@ -26,7 +26,7 @@ const Profile = () => {
   };
 
   return (
-    <div id="Home" className="uppercase p-10 min-h-screen w-screen flex flex-col lg:flex-row items-center justify-center bg-gray-100">
+    <div id="Home" className="uppercase p-10 min-h-screen w-screen flex flex-col md:flex-row items-center justify-center bg-gray-100">
       <section className=" flex flex-col gap-4 lg:gap-6 items-center justify-center p-8 text-center lg:text-left md:w-8/12 m-auto">
         <motion.h1 {...animation.h1} className="text-4xl lg:text-6xl font-bold mb-4">
           I Am head of gyandev

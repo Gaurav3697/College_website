@@ -47,18 +47,14 @@ const images = [
     },
     {
         id: 11,
-        src: "/assets/gallary/11.jpeg"
-    },
-    {
-        id: 12,
         src: "/assets/gallary/12.jpeg"
     },
     {
-        id: 13,
+        id: 12,
         src: "/assets/gallary/13.jpeg"
     },
     {
-        id: 14,
+        id: 13,
         src: "/assets/gallary/14.jpeg"
     },
 ]
@@ -72,7 +68,7 @@ class Gallary extends Component {
                     <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} centerMode={true} interval={'2000'} showIndicators={false} showThumbs={false} showStatus={false} >
                         {
                             images.map((img) => (
-                                <div key={img.id} className='md:w-full h-screen flex flex-row mx-4'>
+                                <div key={img.id} className='md:w-full h-[50vh] md:h-screen flex flex-row mx-4'>
                                     <img
                                         src={img.src}
                                         alt="image"
