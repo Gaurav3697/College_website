@@ -58,8 +58,6 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-
-      <div className="Created by text-sm absolute right-10 bottom-0">Need Website - gm4063420@gmail.com</div>
     </div>
     </footer>
   )

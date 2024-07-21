@@ -14,7 +14,7 @@ const TestinomialCard = ({ name, Description, src }) => {
           <h6 className="w-10/12 m-auto block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-gray-900 antialiased">
             {name}
           </h6>
-          <p className="w-9/12 m-auto block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
+          <p className="w-full md:w-9/12 m-auto text-sm text-gray-700">
             {Description}
           </p>
         </div>
