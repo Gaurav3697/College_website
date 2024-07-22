@@ -62,7 +62,7 @@ const images = [
 class Gallary extends Component {
     render() {
         return (
-            <div id='gallary' className='h-auto w-screen sm:mt-[30vh] md:mt-[20vh] sm:p-5 lg:p-20 flex flex-col gap-6'>
+            <div id='gallary' className='h-auto w-screen sm:mt-[30vh] md:mt-[20vh] sm:p-5 lg:p-20 flex flex-col gap-6 bg-white'>
                     <h1 className="flex justify-center items-center m-auto uppercase text-xl lg:text-4xl w-full">Gallary moments</h1>
                 <div className='rounded-3xl p-3'>
                     <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} centerMode={true} interval={'2000'} showIndicators={false} showThumbs={false} showStatus={false} >

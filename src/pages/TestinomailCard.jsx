@@ -1,7 +1,7 @@
 
 const TestinomialCard = ({ name, Description, src }) => {
   return (
-    <div className="flex flex-col h-auto items-center justify-center w-10/12 m-auto">
+    <div className="flex flex-col h-96 md:h-auto items-center justify-center w-10/12 m-auto">
       <div className="relative flex flex-col w-full max-w-[25rem]  rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
         <div className="relative m-0 w-full shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
           <img
