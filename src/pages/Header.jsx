@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
       <div className="w-screen antialiased bg-gray-100 fixed z-50 mt-0 md:mt-24 lg:mt-10 h-[15vh] top-0 left-0">
-        <div className="w-full text-gray-700 bg-white dark:text-gray-200 ">
+        <div className="w-full text-gray-700 bg-white ">
           <div className="flex flex-col w-10/12 m-auto px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
             <div className="flex flex-row items-center justify-between p-4">
               
@@ -46,28 +46,28 @@ const Header = () => {
               } flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row`}
             >
               <Link href="#home" passHref>
-                <span className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                <span className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                   Home
                 </span>
               </Link>
 
               <Link href="/#courses" passHref>
-                <span className="px-4 py-2 mt-2 text-smd bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                <span className="px-4 py-2 mt-2 text-smd bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                   Courses
                 </span>
               </Link>
               <Link href="#Testinomial" passHref>
-                <span className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                <span className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                   Testinomials
                 </span>
               </Link>
               <Link href="#gallary" passHref>
-                <span className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                <span className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                   Gallary
                 </span>
               </Link>
               <Link href="#contact" passHref>
-                <span className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                <span className="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                   Contact
                 </span>
               </Link>
