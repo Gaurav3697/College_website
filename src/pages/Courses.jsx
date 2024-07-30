@@ -20,7 +20,7 @@ const Courses = () => {
 
     return (
 
-        <div id="courses" className="overflow-x-hidden h-auto w-screen  bg-image relative flex flex-col items-center justify-center min-h-screen bg-fixed bg-center bg-cover "
+        <div id="courses" className="overflow-x-hidden w-screen  bg-image relative flex flex-col items-center justify-center min-h-screen bg-fixed bg-center bg-cover"
             style={{ backgroundAttachment: 'fixed', backgroundPosition: 'center', backgroundSize: 'cover'}}>
             <div className="h-auto md:h-screen w-full flex flex-col gap-2 lg:gap-5 bg-gray-700 bg-opacity-45">
                 <div className="mt-6 flex flex-col gap-4">

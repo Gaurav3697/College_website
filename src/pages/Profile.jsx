@@ -9,7 +9,7 @@ const Profile = () => {
 
   const animation = {
     h1: {
-      initial: { x: "100%", opacity: 0 },
+      initial: { x: "-100%", opacity: 0 },
       whileInView: { x: 0, opacity: 1 },
       transition: { duration: 0.5 },
     },
@@ -26,17 +26,17 @@ const Profile = () => {
   };
 
   return (
-    <div id="Home" className="uppercase p-10 min-h-screen w-screen flex flex-col md:flex-row items-center justify-center bg-gray-100">
+    <div id="Home" className="uppercase p-4 md:p-10 min-h-screen w-screen flex flex-col md:flex-row items-center justify-center bg-gray-100">
       <section className=" flex flex-col gap-4 lg:gap-6 items-center justify-center p-8 text-center lg:text-left md:w-8/12 m-auto">
-        <motion.h1 {...animation.h1} className="text-4xl lg:text-6xl font-bold mb-4 text-gray-800">
-          I Am head of gyandev
+        <motion.h1 {...animation.h1} className="text-3xl lg:text-4xl mb-4 text-gray-800 font-serif tracking-wider fl;ex justify-center align-middle text-center">
+         He is the Head of Our College who is
         </motion.h1>
         <Typewriter
           options={{
-            strings: ["Who only wants success of student", "Who always inspires their students to excel", "Who always guides their students with dedication"],
+            strings: ["Student-Centric Leader","Passionate Educator","A Dynamic Leader", "Inspiring Motivator", "Energetic Visionary","Empathetic Communicator","Positive Influencer","Proactive Innovator","Empowering Mentor","Collaborative Spirit","Motivational Speaker"],
             autoStart: true,
             loop: true,
-            wrapperClassName: "text-xl lg:text-3xl text-gray-700 mb-6",
+            wrapperClassName: "text-xl lg:text-2xl text-gray-700 mb-6",
             cursor: "",
           }}
         />
